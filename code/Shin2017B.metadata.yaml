@@ -1,0 +1,227 @@
+_dataset:
+  class: Shin2017B
+  code: Shin2017B
+  doi: 10.1109/TNSRE.2016.2628057
+  interval:
+  - 0
+  - 10
+  n_subjects: 29
+  paradigm: imagery
+abstract: 'Open access dataset for hybrid brain-computer interfaces using EEG and NIRS. Includes two experiments: (1) left
+  vs right hand motor imagery, (2) mental arithmetic vs resting state. Dataset validated using baseline signal analysis showing
+  hybrid approach enhances discrimination of mental states. Also includes motion artifacts and physiological data for wide
+  range of validation approaches.'
+acquisition:
+  auxiliary_channels:
+    eog_channels: 4
+    eog_type:
+    - horizontal
+    - vertical
+    has_eog: true
+    other_physiological:
+    - ecg
+    - respiration
+  cap_manufacturer: EASYCAP GmbH
+  cap_model: custom-made stretchy fabric cap
+  channel_types:
+    eeg: 30
+    eog: 2
+  ground: Fz
+  hardware: BrainAmp
+  line_freq: 50.0
+  montage: 10-5
+  n_channels: 30
+  reference: linked mastoids
+  sampling_rate: 200.0
+  sensor_type: active electrodes
+  sensors:
+  - AFF1h
+  - AFF2h
+  - AFF5h
+  - AFF6h
+  - AFp1
+  - AFp2
+  - CCP3h
+  - CCP4h
+  - CCP5h
+  - CCP6h
+  - Cz
+  - F3
+  - F4
+  - F7
+  - F8
+  - FCC3h
+  - FCC4h
+  - FCC5h
+  - FCC6h
+  - HEOG
+  - P3
+  - P4
+  - P7
+  - P8
+  - POO1
+  - POO2
+  - PPO1h
+  - PPO2h
+  - Pz
+  - T7
+  - T8
+  - VEOG
+  software: MATLAB R2013b
+bci_application:
+  applications:
+  - hybrid_bci_research
+  environment: laboratory
+cross_validation:
+  cv_folds: 5
+  cv_method: 10x5-fold
+  evaluation_type:
+  - within_subject
+data_processed: true
+data_structure:
+  n_trials:
+    per_condition_session: 10
+    per_condition_total: 30
+    per_session: 20
+  trials_context: 'Each session: 1 min pre-experiment rest + 20 trials + 1 min post-experiment rest. Trial: 2s visual instruction
+    + 10s task + 15-17s random rest'
+documentation:
+  contact_info:
+  - h2j@kumoh.ac.kr
+  - klaus-robert.mueller@tuberlin.de
+  country: DE
+  data_url: http://doc.ml.tu-berlin.de/hBCI
+  description: Open access dataset for hybrid brain-computer interfaces using EEG and NIRS with motor imagery and mental arithmetic
+    tasks
+  doi: 10.1109/TNSRE.2016.2628057
+  ethics_approval:
+  - 'Ethics Committee of the Institute of Psychology and Ergonomics, Technical University of Berlin (approval number: SH_01_20150330)'
+  funding:
+  - Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education
+    (NRF-2014R1A6A3A03057524)
+  - Ministry of Science, ICT & Future Planning (NRF-2015R1C1A1A02037032)
+  - Brain Korea 21 PLUS Program through the NRF funded by the Ministry of Education
+  - Korea University Grant
+  - 'BMBF (#01GQ0850, Bernstein Focus: Neurotechnology)'
+  institution: Berlin Institute of Technology
+  institution_address: 10587 Berlin, Germany
+  institution_department: Department of Computer Science, Machine Learning Group
+  investigators:
+  - Jaeyoung Shin
+  - Alexander von Lühmann
+  - Benjamin Blankertz
+  - Do-Won Kim
+  - Jichai Jeong
+  - Han-Jeong Hwang
+  - Klaus-Robert Müller
+  keywords:
+  - Brain-computer interface
+  - BCI
+  - electroencephalography
+  - EEG
+  - hybrid BCI
+  - mental arithmetic
+  - motor imagery
+  - near-infrared spectroscopy
+  - NIRS
+  - open access dataset
+  license: GPL-3.0
+  publication_year: 2017
+  repository: GitHub
+  senior_author: Klaus-Robert Müller
+experiment:
+  class_labels:
+  - subtraction
+  - rest
+  events:
+    rest: 4
+    subtraction: 3
+  feedback_type: none
+  instructions: For the MA task, subjects memorized an initial subtraction (three-digit minus one-digit) displayed for 2s,
+    then repeatedly subtracted the one-digit number from each result. For baseline, subjects rested with no specific thought.
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  - auditory
+  stimulus_type: visual instruction (subtraction problem and fixation cross)
+  study_design: 'Dataset B: mental arithmetic (serial subtraction of one-digit number) versus baseline/rest task'
+  synchronicity: cued-synchronous
+  trial_duration: 10.0
+  trials_per_class:
+    rest: 30
+    subtraction: 30
+file_format: MATLAB
+methodology: 'Thirty subjects performed 6 sessions alternating between motor imagery (dataset A: left/right hand) and mental
+  arithmetic (dataset B: MA vs rest). Each session: 20 trials with 2s cue, 10s task, 15-17s rest. EEG recorded at 1000 Hz
+  with 30 channels, downsampled to 200 Hz. Preprocessing: CAR, 0.5-50 Hz bandpass (4th order Chebyshev II), ICA-based EOG
+  rejection. Feature extraction: CSP with log-variance of first/last 3 components using 3s moving window (1s step). Classification:
+  shrinkage LDA with 10x5-fold CV. Hybrid analysis combines EEG and NIRS outputs using meta-classifier.'
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  n_repetitions: 20
+participants:
+  age_mean: 28.5
+  age_std: 3.7
+  bci_experience: naive to MI experiment
+  gender:
+    female: 15
+    male: 14
+  handedness:
+    left: 1
+    right: 29
+  health_status: healthy
+  n_subjects: 29
+  species: human
+performance:
+  MA_EEG_max_accuracy: 75.9
+  MA_HbO_max_accuracy: 83.6
+  MA_HbR_max_accuracy: 80.7
+preprocessing:
+  artifact_methods:
+  - EOG correction
+  - ICA
+  bandpass:
+  - 0.5
+  - 50.0
+  data_state: preprocessed
+  downsampled_to_hz: 200.0
+  filter_order: 4
+  filter_type: Chebyshev type II
+  highpass_hz: 0.5
+  lowpass_hz: 50.0
+  preprocessing_applied: true
+  preprocessing_steps:
+  - common average reference
+  - bandpass filtering (0.5-50 Hz)
+  - ICA-based EOG rejection
+  - downsampling to 200 Hz
+  re_reference: car
+runs_per_session: 1
+sessions:
+- 1arithmetic
+- 3arithmetic
+- 5arithmetic
+sessions_per_subject: 3
+signal_processing:
+  classifiers:
+  - LDA
+  - Shrinkage LDA
+  feature_extraction:
+  - CSP
+  - log-variance
+  frequency_bands:
+    analyzed_range:
+    - 4.0
+    - 35.0
+  spatial_filters:
+  - CSP
+tags:
+  modality:
+  - Cognitive
+  pathology:
+  - Healthy
+  type:
+  - Cognitive
