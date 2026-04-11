@@ -1,57 +1,57 @@
 {
-	"Name": "Shin2017B",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "GPL-3.0",
-	"Authors": [
-		"Jaeyoung Shin",
-		"Alexander von L\u00fchmann",
-		"Benjamin Blankertz",
-		"Do-Won Kim",
-		"Jichai Jeong",
-		"Han-Jeong Hwang",
-		"Klaus-Robert M\u00fcller"
-	],
-	"Funding": [
-		"Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (NRF-2014R1A6A3A03057524)",
-		"Ministry of Science, ICT & Future Planning (NRF-2015R1C1A1A02037032)",
-		"Brain Korea 21 PLUS Program through the NRF funded by the Ministry of Education",
-		"Korea University Grant",
-		"BMBF (#01GQ0850, Bernstein Focus: Neurotechnology)"
-	],
-	"EthicsApprovals": [
-		"Ethics Committee of the Institute of Psychology and Ergonomics, Technical University of Berlin (approval number: SH_01_20150330)"
-	],
-	"ReferencesAndLinks": [
-		"http://doc.ml.tu-berlin.de/hBCI"
-	],
-	"DatasetDOI": "doi:10.1109/TNSRE.2016.2628057",
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1109/TNSRE.2016.2628057",
-			"URL": "http://doc.ml.tu-berlin.de/hBCI"
-		}
-	],
-	"Keywords": [
-		"Brain-computer interface",
-		"BCI",
-		"electroencephalography",
-		"EEG",
-		"hybrid BCI",
-		"mental arithmetic",
-		"motor imagery",
-		"near-infrared spectroscopy",
-		"NIRS",
-		"open access dataset"
-	],
-	"PublicationYear": 2017
+  "Name": "Shin et al. 2017 (Experiment B) — Hybrid EEG-fNIRS BCI dataset",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "GPL-3.0",
+  "Authors": [
+    "Jaeyoung Shin",
+    "Alexander von Lühmann",
+    "Benjamin Blankertz",
+    "Do-Won Kim",
+    "Jichai Jeong",
+    "Han-Jeong Hwang",
+    "Klaus-Robert Müller"
+  ],
+  "Funding": [
+    "Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (NRF-2014R1A6A3A03057524)",
+    "Ministry of Science, ICT & Future Planning (NRF-2015R1C1A1A02037032)",
+    "Brain Korea 21 PLUS Program through the NRF funded by the Ministry of Education",
+    "Korea University Grant",
+    "BMBF (#01GQ0850, Bernstein Focus: Neurotechnology)"
+  ],
+  "EthicsApprovals": [
+    "Ethics Committee of the Institute of Psychology and Ergonomics, Technical University of Berlin (approval number: SH_01_20150330)"
+  ],
+  "ReferencesAndLinks": [
+    "http://doc.ml.tu-berlin.de/hBCI"
+  ],
+  "DatasetDOI": "doi:10.1109/TNSRE.2016.2628057",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1109/TNSRE.2016.2628057",
+      "URL": "http://doc.ml.tu-berlin.de/hBCI"
+    }
+  ],
+  "Keywords": [
+    "Brain-computer interface",
+    "BCI",
+    "electroencephalography",
+    "EEG",
+    "hybrid BCI",
+    "mental arithmetic",
+    "motor imagery",
+    "near-infrared spectroscopy",
+    "NIRS",
+    "open access dataset"
+  ],
+  "PublicationYear": 2017
 }
