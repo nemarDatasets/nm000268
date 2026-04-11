@@ -1,5 +1,5 @@
 {
-  "Name": "Shin et al. 2017 (Experiment B) — Hybrid EEG-fNIRS BCI dataset",
+  "Name": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
