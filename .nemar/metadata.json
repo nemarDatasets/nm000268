@@ -1,0 +1,117 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jaeyoung Shin": {},
+    "Alexander von Lühmann": {},
+    "Benjamin Blankertz": {},
+    "Do-Won Kim": {},
+    "Jichai Jeong": {},
+    "Han-Jeong Hwang": {},
+    "Klaus-Robert Müller": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/TNSRE.2016.2628057",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000268",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000268",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Brain Korea 21 PLUS Program through the NRF funded by the Ministry of Education"
+    },
+    {
+      "funder_name": "Korea University Grant"
+    },
+    {
+      "funder_name": "National Research Foundation of Korea",
+      "award_number": "NRF-2014R1A6A3A03057524",
+      "award_title": "Basic Science Research Program"
+    },
+    {
+      "funder_name": "National Research Foundation of Korea",
+      "award_number": "NRF-2015R1C1A1A02037032",
+      "award_title": "Ministry of Science, ICT & Future Planning"
+    },
+    {
+      "funder_name": "National Research Foundation of Korea",
+      "award_title": "Brain Korea 21 PLUS Program"
+    },
+    {
+      "funder_name": "Korea University"
+    },
+    {
+      "funder_name": "BMBF",
+      "award_number": "01GQ0850",
+      "award_title": "Bernstein Focus: Neurotechnology"
+    }
+  ],
+  "title": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
+  "license": "GPL-3.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.0 GB (175 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This open-access hybrid brain-computer interface dataset combines simultaneous EEG and near-infrared spectroscopy (NIRS) recordings from 29 healthy subjects performing mental arithmetic and motor imagery tasks. Experiment B focuses on mental arithmetic (serial subtraction) versus rest conditions across six sessions with 20 trials per session. The dataset includes preprocessed EEG data (30 channels, 200 Hz sampling rate) with comprehensive artifact correction and has been validated for single-trial classification using common spatial patterns and linear discriminant analysis.",
+  "methods_description": "EEG was recorded from 30 channels at 1000 Hz using a BrainAmp system with active electrodes in a 10-5 montage, then downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed common spatial patterns with log-variance of the first and last three components using a 3-second moving window (1-second step). Classification used shrinkage linear discriminant analysis with 10×5-fold cross-validation. Each trial consisted of a 2-second visual cue, 10-second task period, and 15-17 seconds of rest.",
+  "keywords": [
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "spectroscopy, near-infrared"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "mental arithmetic"
+    },
+    {
+      "term": "hybrid BCI"
+    }
+  ],
+  "source_hash": "b6832ac063e15b5e78bf75ccb40d0508c0a2ede8e035c4e4ee2e4d57b49b3796"
+}
