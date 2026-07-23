@@ -1,0 +1,15 @@
+{
+  "dataset_id": "nm000268",
+  "version": "1.0.1",
+  "generated_at": "2026-07-23T01:10:09.271Z",
+  "source": null,
+  "complete": true,
+  "completeness": {
+    "files_present": 174,
+    "files_declared": 174,
+    "bytes_present": 2011766925,
+    "bytes_declared": 2013549265,
+    "pct_bytes": 0.9991148267236462
+  },
+  "missing": []
+}
