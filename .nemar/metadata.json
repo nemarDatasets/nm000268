@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
+  "description": "This open-access hybrid brain-computer interface dataset combines simultaneous EEG and near-infrared spectroscopy (NIRS) recordings from 29 healthy subjects performing mental arithmetic and motor imagery tasks. Experiment B focuses on mental arithmetic (serial subtraction) versus rest conditions across six sessions with preprocessed data at 200 Hz sampling rate. The dataset includes comprehensive preprocessing (bandpass filtering, ICA-based artifact rejection, common average reference) and serves as a benchmark for validating hybrid BCI approaches that integrate multimodal neuroimaging signals.",
+  "methods_description": "EEG was recorded from 30 channels using active electrodes in a 10-5 montage (BrainAmp system, EASYCAP cap) at 1000 Hz and downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed Common Spatial Patterns (CSP) with log-variance of the first and last three components using a 3-second moving window (1-second step). Classification used shrinkage Linear Discriminant Analysis with 10×5-fold cross-validation. Each session comprised 20 trials with 2-second visual cues, 10-second task periods, and 15-17 second inter-trial rest intervals.",
+  "license": "GPL-3.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jaeyoung Shin": {},
     "Alexander von Lühmann": {},
@@ -10,6 +15,34 @@
     "Han-Jeong Hwang": {},
     "Klaus-Robert Müller": {}
   },
+  "keywords": [
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "mental arithmetic"
+    },
+    {
+      "term": "near-infrared spectroscopy"
+    },
+    {
+      "term": "hybrid BCI"
+    },
+    {
+      "term": "signal classification"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1109/TNSRE.2016.2628057",
@@ -22,11 +55,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000268",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -35,6 +63,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000268",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -67,51 +100,22 @@
       "award_title": "Bernstein Focus: Neurotechnology"
     }
   ],
-  "title": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
-  "license": "GPL-3.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "2.0 GB (175 files)"
+    "7.1 GB (204 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "description": "This open-access hybrid brain-computer interface dataset combines simultaneous EEG and near-infrared spectroscopy (NIRS) recordings from 29 healthy subjects performing mental arithmetic and motor imagery tasks. Experiment B focuses on mental arithmetic (serial subtraction) versus rest conditions across six sessions with 20 trials per session. The dataset includes preprocessed EEG data (30 channels, 200 Hz sampling rate) with comprehensive artifact correction and has been validated for single-trial classification using common spatial patterns and linear discriminant analysis.",
-  "methods_description": "EEG was recorded from 30 channels at 1000 Hz using a BrainAmp system with active electrodes in a 10-5 montage, then downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed common spatial patterns with log-variance of the first and last three components using a 3-second moving window (1-second step). Classification used shrinkage linear discriminant analysis with 10×5-fold cross-validation. Each trial consisted of a 2-second visual cue, 10-second task period, and 15-17 seconds of rest.",
-  "keywords": [
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "spectroscopy, near-infrared"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "mental arithmetic"
-    },
-    {
-      "term": "hybrid BCI"
-    }
-  ],
-  "source_hash": "b6832ac063e15b5e78bf75ccb40d0508c0a2ede8e035c4e4ee2e4d57b49b3796"
+  "source_hash": "e37daf89dd017910fc13e2a8f1727a4209644a45e3d8f9ce529d8b3b15f18579"
 }
