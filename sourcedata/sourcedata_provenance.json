@@ -1,0 +1,305 @@
+{
+ "dataset": "nm000268",
+ "moabb_class": "Shin2017B",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Shin2017B.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-eegfnirs-data/EEG",
+ "license": "GPL-3.0",
+ "doi": "10.1109/TNSRE.2016.2628057",
+ "naming": "upstream_filenames_restored",
+ "n_files": 58,
+ "total_bytes": 5099860522,
+ "files": [
+  {
+   "file": "subject 01/with occular artifact/cnt.mat",
+   "bytes": 174953648,
+   "sha256": "12ddca5c72bae4701567abf4177dfc71708c7499aacfb9992ad51ac1c22b7d3b"
+  },
+  {
+   "file": "subject 01/with occular artifact/mrk.mat",
+   "bytes": 3243,
+   "sha256": "6ff31d7367ee30c1f93fe02735e4c8abb035528450724af77ffc217e3cb3396a"
+  },
+  {
+   "file": "subject 02/with occular artifact/cnt.mat",
+   "bytes": 175762561,
+   "sha256": "8b045cbbad718447272a9c2f771a10663f7be08dd8abcc95f43307ec94df6af2"
+  },
+  {
+   "file": "subject 02/with occular artifact/mrk.mat",
+   "bytes": 3238,
+   "sha256": "affc6880949557756b958e00126e1f7f82e598bb793a41a2c8003a383cf8cfc9"
+  },
+  {
+   "file": "subject 03/with occular artifact/cnt.mat",
+   "bytes": 175960196,
+   "sha256": "3ca6adab2c635b849558ca22e0a68d92b5edde93737e3a53900f411a1af7cbe5"
+  },
+  {
+   "file": "subject 03/with occular artifact/mrk.mat",
+   "bytes": 3234,
+   "sha256": "b8106e599af8c73cd22eac0bd9dc6b63590e7a24b9f76000e366b95a7339e1ca"
+  },
+  {
+   "file": "subject 04/with occular artifact/cnt.mat",
+   "bytes": 175785660,
+   "sha256": "f25d9cea0fd4b631ddee5ec98883d95514d5310f3039c6b58ceea3ab443de92f"
+  },
+  {
+   "file": "subject 04/with occular artifact/mrk.mat",
+   "bytes": 3277,
+   "sha256": "aef4025f480b458114f256f78e2c977fad25ff29e4316dcaf7a52b77c985a4b8"
+  },
+  {
+   "file": "subject 05/with occular artifact/cnt.mat",
+   "bytes": 175081624,
+   "sha256": "0ad747594f5c63c94442ac188b61ff1f8be657c77bc53713e5b5e388cf5eb605"
+  },
+  {
+   "file": "subject 05/with occular artifact/mrk.mat",
+   "bytes": 3259,
+   "sha256": "12ea9e42f2c7cde3c1f432564229d5c292f4d7e6c251ffc6f6163a9791454270"
+  },
+  {
+   "file": "subject 06/with occular artifact/cnt.mat",
+   "bytes": 176166547,
+   "sha256": "b0d0de20e703e9261d680625fd8567f033e7fa0ecf3bf0e67a6adb6c3a38253e"
+  },
+  {
+   "file": "subject 06/with occular artifact/mrk.mat",
+   "bytes": 3260,
+   "sha256": "be7567a4a3ea751fda0972ac00dcda82aeed60631dec52de31968e09336ae58f"
+  },
+  {
+   "file": "subject 07/with occular artifact/cnt.mat",
+   "bytes": 176632324,
+   "sha256": "0bb5fcd210ffa5569959ff57db5bf1cd888f7553502c615e35f3d6c510fe08fc"
+  },
+  {
+   "file": "subject 07/with occular artifact/mrk.mat",
+   "bytes": 3257,
+   "sha256": "99c16ed7f7e1f0529cdacb645c3033e4dfb312f17ba4e6434f21b292a1915638"
+  },
+  {
+   "file": "subject 08/with occular artifact/cnt.mat",
+   "bytes": 175604521,
+   "sha256": "7229a2946639aa8aaa65c83a61261376e1fd91d25f012e5c7215237210a59e07"
+  },
+  {
+   "file": "subject 08/with occular artifact/mrk.mat",
+   "bytes": 3242,
+   "sha256": "0f5eabb28344ad5cd8b9d37b629cfef4e4dd0b4578b54ec50452c7260b53a651"
+  },
+  {
+   "file": "subject 09/with occular artifact/cnt.mat",
+   "bytes": 176291382,
+   "sha256": "99335a00bd1a2f8331e4af0359273d358c473c03c3f7b64d69dbcda81853232c"
+  },
+  {
+   "file": "subject 09/with occular artifact/mrk.mat",
+   "bytes": 3270,
+   "sha256": "8c23358528c183ca0020681a06969fd5a738d7af32771d694c6932eec28c6848"
+  },
+  {
+   "file": "subject 10/with occular artifact/cnt.mat",
+   "bytes": 175930423,
+   "sha256": "62e46c557cc3be6c6937d1ed3ac142703fa4af3a3c5e8046b1bae7c123eeaf4b"
+  },
+  {
+   "file": "subject 10/with occular artifact/mrk.mat",
+   "bytes": 3226,
+   "sha256": "43cb559fd33a3454f80b32b7fec13cb508fefb8132833d2e6d83c9fc16d1ce8f"
+  },
+  {
+   "file": "subject 11/with occular artifact/cnt.mat",
+   "bytes": 175978572,
+   "sha256": "5cc341b0e8a8a634041fd5ff893b0d95dcffe9673bb7a7d8a838e1a9d18a46b5"
+  },
+  {
+   "file": "subject 11/with occular artifact/mrk.mat",
+   "bytes": 3264,
+   "sha256": "bfe7204649112bcebc5cef02ebce3d73ef3e4c1f06e086e94c07952bbc6bab05"
+  },
+  {
+   "file": "subject 12/with occular artifact/cnt.mat",
+   "bytes": 175427819,
+   "sha256": "a7cd2217a0ccd7e8a53a7a641fa0e4b5c0274a0f7c32f4e2c35f96f8e1a27223"
+  },
+  {
+   "file": "subject 12/with occular artifact/mrk.mat",
+   "bytes": 3267,
+   "sha256": "84b7abadaf1df1cb40a0a5a61de45bba1d18bae49926e99964bc6ee8a1db0083"
+  },
+  {
+   "file": "subject 13/with occular artifact/cnt.mat",
+   "bytes": 176270340,
+   "sha256": "25888122be1a334dcc5bb9e60ae67663885cffde550e6b918ff3a26c174e925f"
+  },
+  {
+   "file": "subject 13/with occular artifact/mrk.mat",
+   "bytes": 3249,
+   "sha256": "7ce1c26155c7afc9750c6250969c64a9c3df05dfc1de43711febb55bf9f89a59"
+  },
+  {
+   "file": "subject 14/with occular artifact/cnt.mat",
+   "bytes": 176531750,
+   "sha256": "f488daf1ecb1d254fcf9a1c3ea94d70384930868a6881b7f9c79758acbedb64b"
+  },
+  {
+   "file": "subject 14/with occular artifact/mrk.mat",
+   "bytes": 3234,
+   "sha256": "c1b0b1734b83d1d6734461ea0af7bfc6fa6951bda650f4b1b208abf25f66d354"
+  },
+  {
+   "file": "subject 15/with occular artifact/cnt.mat",
+   "bytes": 176581256,
+   "sha256": "749b8c16cb57ab98aead3108c174a5bfffd7787663c33c519ec9639835789806"
+  },
+  {
+   "file": "subject 15/with occular artifact/mrk.mat",
+   "bytes": 3221,
+   "sha256": "fbaa5d708205e984a7296ae564b4a3e0adb18d32492c00ab670ed90e95a25f77"
+  },
+  {
+   "file": "subject 16/with occular artifact/cnt.mat",
+   "bytes": 175781372,
+   "sha256": "903eb1e93ed0500408340c61f9dd8cc7814e436417240de030352d3e97a8d373"
+  },
+  {
+   "file": "subject 16/with occular artifact/mrk.mat",
+   "bytes": 3254,
+   "sha256": "cefc2ee453ac9fefe20754ee7741978601be653392ccd297c3e146441f8a904c"
+  },
+  {
+   "file": "subject 17/with occular artifact/cnt.mat",
+   "bytes": 175664356,
+   "sha256": "35312756f687f4bb0dcab144a6b1b2cef68609dc4b4acdb9a53025512e9ff2cf"
+  },
+  {
+   "file": "subject 17/with occular artifact/mrk.mat",
+   "bytes": 3254,
+   "sha256": "005795577bb0e4d73c9494cd8f857942c7acee097c938acde2930b6053a86118"
+  },
+  {
+   "file": "subject 18/with occular artifact/cnt.mat",
+   "bytes": 176580489,
+   "sha256": "a01e235d0874b3c7aea3514c438bc58476c1a631d9c966d09899c0d08911daa0"
+  },
+  {
+   "file": "subject 18/with occular artifact/mrk.mat",
+   "bytes": 3256,
+   "sha256": "d6c19cb85e5397e2567504b66bb5718fda2df5695869a43c9a0210661dda0059"
+  },
+  {
+   "file": "subject 19/with occular artifact/cnt.mat",
+   "bytes": 174907784,
+   "sha256": "1a2bce6c4d0029fae032d9f4295b78a570f67b0d1806e06e9e07f79dff690e41"
+  },
+  {
+   "file": "subject 19/with occular artifact/mrk.mat",
+   "bytes": 3247,
+   "sha256": "3081e540b73c1e5dbe65d54b02224016554d888679b961475a8c92838be434e6"
+  },
+  {
+   "file": "subject 20/with occular artifact/cnt.mat",
+   "bytes": 175203913,
+   "sha256": "201f8fa602c04a0ad4bebeca62d291198669a4b91347e8aaad38ccdbe0e9906f"
+  },
+  {
+   "file": "subject 20/with occular artifact/mrk.mat",
+   "bytes": 3254,
+   "sha256": "9348dd3e0260e449352d390ea35bebf86b4e12359518e7f60a0a34b4befe2275"
+  },
+  {
+   "file": "subject 21/with occular artifact/cnt.mat",
+   "bytes": 175427804,
+   "sha256": "872d8670f5464cf3a589e139c26c096aaf931b4e2fff6bab61fb557b74a368ef"
+  },
+  {
+   "file": "subject 21/with occular artifact/mrk.mat",
+   "bytes": 3253,
+   "sha256": "b35f62e757bb494ad5dd73e658fd4acd83346dd76bd108740945be51c4d675b4"
+  },
+  {
+   "file": "subject 22/with occular artifact/cnt.mat",
+   "bytes": 176012445,
+   "sha256": "97f5dc8b25cb3cc9ca2660f58b5ee67e12d4f3bad85f540855b2147325d6583d"
+  },
+  {
+   "file": "subject 22/with occular artifact/mrk.mat",
+   "bytes": 3236,
+   "sha256": "56cb70fc75bcdaf3aeeb63b7fe3f90b7e642abcb53f4725858d5e4efa86cb52e"
+  },
+  {
+   "file": "subject 23/with occular artifact/cnt.mat",
+   "bytes": 174186251,
+   "sha256": "96178cf2a72cd8eba9cf452f9031d103a8c8c047e6c1860bce1bf23b3ec70c27"
+  },
+  {
+   "file": "subject 23/with occular artifact/mrk.mat",
+   "bytes": 3246,
+   "sha256": "579c3469a291646114ee41de0960b34093e65aeabf126a3528d0fb1f4b3d7d8e"
+  },
+  {
+   "file": "subject 24/with occular artifact/cnt.mat",
+   "bytes": 175292998,
+   "sha256": "b06b4323668030a11849dd1300d6249ea122c1a5d97b402f1fe8b1f6037b461b"
+  },
+  {
+   "file": "subject 24/with occular artifact/mrk.mat",
+   "bytes": 3281,
+   "sha256": "4b702547ee30a5ff9b3e03d3c385328e35a76ae81700e9a171add95fc488d785"
+  },
+  {
+   "file": "subject 25/with occular artifact/cnt.mat",
+   "bytes": 175922403,
+   "sha256": "82545140153743d29522ead94eca19fbfa4c5d973c0b34384e0fca741626fd04"
+  },
+  {
+   "file": "subject 25/with occular artifact/mrk.mat",
+   "bytes": 3251,
+   "sha256": "01083e0a79efbe56a5a52bb87e5f5ddb44e396aae7ec6c15699264c4bb5e4034"
+  },
+  {
+   "file": "subject 26/with occular artifact/cnt.mat",
+   "bytes": 176541966,
+   "sha256": "d24f409ce7e380d1dd185d289baa7a445281703d084381c0cb8f72adaf78d96d"
+  },
+  {
+   "file": "subject 26/with occular artifact/mrk.mat",
+   "bytes": 3251,
+   "sha256": "2828834b6dd98c3180ea1d3ed04ff502d7fc95b168375f90a8faf79220c91a7b"
+  },
+  {
+   "file": "subject 27/with occular artifact/cnt.mat",
+   "bytes": 176437646,
+   "sha256": "18d9be18039833d5ced2be05860499042ee46ca745e7c0584549e5335d67cd80"
+  },
+  {
+   "file": "subject 27/with occular artifact/mrk.mat",
+   "bytes": 3248,
+   "sha256": "718dfe5be1470d375e089f5873a4b6429fa63b87f2741ac3c9fa55fec9bbce75"
+  },
+  {
+   "file": "subject 28/with occular artifact/cnt.mat",
+   "bytes": 176888943,
+   "sha256": "a5b0a9256d9167ccda8e9fda6490aa61cc0a6fa00f3eaf0f1c2116b8b1ae77e5"
+  },
+  {
+   "file": "subject 28/with occular artifact/mrk.mat",
+   "bytes": 3259,
+   "sha256": "088dcd3ed8c3f92f27b27d9f44bfaafa6d43da826971bcfd1e7f7bf7c6e46d90"
+  },
+  {
+   "file": "subject 29/with occular artifact/cnt.mat",
+   "bytes": 175959264,
+   "sha256": "ce116757d2e35a99f8fb6f0029afcc04bb1ca99de486862fd88a208da5bd65b6"
+  },
+  {
+   "file": "subject 29/with occular artifact/mrk.mat",
+   "bytes": 3234,
+   "sha256": "85e09ad013f4a9397f45c6a61f8294e0a63f758b4df13fff3b10e9e1656d4a71"
+  }
+ ]
+}
