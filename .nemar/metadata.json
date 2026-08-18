@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
   "description": "This open-access hybrid brain-computer interface dataset combines simultaneous EEG and near-infrared spectroscopy (NIRS) recordings from 29 healthy subjects performing mental arithmetic and motor imagery tasks. Experiment B focuses on mental arithmetic (serial subtraction) versus rest conditions across six sessions with preprocessed data at 200 Hz sampling rate. The dataset includes comprehensive preprocessing (bandpass filtering, ICA-based artifact rejection, common average reference) and serves as a benchmark for validating hybrid BCI approaches that integrate multimodal neuroimaging signals.",
-  "methods_description": "EEG was recorded from 30 channels using active electrodes in a 10-5 montage (BrainAmp system, EASYCAP cap) at 1000 Hz and downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed Common Spatial Patterns (CSP) with log-variance of the first and last three components using a 3-second moving window (1-second step). Classification used shrinkage Linear Discriminant Analysis with 10×5-fold cross-validation. Each session comprised 20 trials with 2-second visual cues, 10-second task periods, and 15-17 second inter-trial rest intervals.",
+  "methods_description": "EEG was recorded from 30 channels using active electrodes in a 10-5 montage (BrainAmp hardware, EASYCAP cap) at 1000 Hz and downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed Common Spatial Patterns (CSP) with log-variance of the first and last 3 components using a 3-second moving window (1-second step). Classification used shrinkage Linear Discriminant Analysis with 10×5-fold cross-validation. Each session comprised 20 trials with 2-second visual cues, 10-second task periods, and 15-17 second inter-trial rest intervals.",
   "license": "GPL-3.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,19 +28,19 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "near-infrared spectroscopy"
+    },
+    {
+      "term": "NIRS"
     },
     {
       "term": "mental arithmetic"
     },
     {
-      "term": "near-infrared spectroscopy"
+      "term": "motor imagery"
     },
     {
       "term": "hybrid BCI"
-    },
-    {
-      "term": "signal classification"
     }
   ],
   "related_identifiers": [
@@ -117,5 +117,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e37daf89dd017910fc13e2a8f1727a4209644a45e3d8f9ce529d8b3b15f18579"
+  "source_hash": "bd03e30e852e8e9b70ebc228018e51d6427eaeeab2ae1eb0dca8f38e9b2bf564"
 }
