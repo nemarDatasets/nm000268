@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Shin et al. 2017 (Experiment B) — Open Access Dataset for EEG+NIRS Single-Trial Classification",
-  "description": "This open-access hybrid brain-computer interface dataset combines simultaneous EEG and near-infrared spectroscopy (NIRS) recordings from 29 healthy subjects performing mental arithmetic and motor imagery tasks. Experiment B focuses on mental arithmetic (serial subtraction) versus rest conditions across six sessions with preprocessed data at 200 Hz sampling rate. The dataset includes comprehensive preprocessing (bandpass filtering, ICA-based artifact rejection, common average reference) and serves as a benchmark for validating hybrid BCI approaches that integrate multimodal neuroimaging signals.",
-  "methods_description": "EEG was recorded from 30 channels using active electrodes in a 10-5 montage (BrainAmp hardware, EASYCAP cap) at 1000 Hz and downsampled to 200 Hz. Preprocessing included common average reference, 0.5-50 Hz bandpass filtering (4th order Chebyshev II), and ICA-based EOG rejection. Feature extraction employed Common Spatial Patterns (CSP) with log-variance of the first and last 3 components using a 3-second moving window (1-second step). Classification used shrinkage Linear Discriminant Analysis with 10×5-fold cross-validation. Each session comprised 20 trials with 2-second visual cues, 10-second task periods, and 15-17 second inter-trial rest intervals.",
+  "description": "This dataset contains EEG recordings (30 channels, with EOG) from 29 healthy participants performing a mental arithmetic task (serial subtraction) versus a resting baseline. It is Experiment B of an open-access hybrid brain-computer interface resource that also includes simultaneous NIRS recordings. Data were collected over multiple sessions, preprocessed, and converted to BIDS using MOABB, to support single-trial classification and hybrid BCI research.",
+  "methods_description": "EEG was recorded with BrainAmp amplifiers and active electrodes in a 10-5 montage (30 channels plus EOG), initially at 1000 Hz and downsampled to 200 Hz. Each session included a 1-min pre-rest, 20 trials (2 s visual instruction, 10 s task, 15-17 s rest), and a 1-min post-rest. Preprocessing comprised common average reference, 0.5-50 Hz Chebyshev type II bandpass filtering, and ICA-based EOG rejection. Classification used CSP log-variance features with shrinkage LDA and 10x5-fold cross-validation.",
   "license": "GPL-3.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,30 +17,29 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "EEG"
-    },
-    {
       "term": "near-infrared spectroscopy"
-    },
-    {
-      "term": "NIRS"
     },
     {
       "term": "mental arithmetic"
     },
     {
-      "term": "motor imagery"
+      "term": "hybrid BCI"
     },
     {
-      "term": "hybrid BCI"
+      "term": "single-trial classification"
     }
   ],
   "related_identifiers": [
@@ -83,16 +82,11 @@
       "award_title": "Basic Science Research Program"
     },
     {
-      "funder_name": "National Research Foundation of Korea",
-      "award_number": "NRF-2015R1C1A1A02037032",
-      "award_title": "Ministry of Science, ICT & Future Planning"
+      "funder_name": "Ministry of Science, ICT & Future Planning",
+      "award_number": "NRF-2015R1C1A1A02037032"
     },
     {
-      "funder_name": "National Research Foundation of Korea",
-      "award_title": "Brain Korea 21 PLUS Program"
-    },
-    {
-      "funder_name": "Korea University"
+      "funder_name": "Brain Korea 21 PLUS Program"
     },
     {
       "funder_name": "BMBF",
@@ -106,7 +100,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.1 GB (204 files)"
+    "6.62 GB (204 files)"
   ],
   "formats": [
     ".bdf",
