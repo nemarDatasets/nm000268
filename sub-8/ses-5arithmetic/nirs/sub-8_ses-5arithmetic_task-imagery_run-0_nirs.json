@@ -1,0 +1,28 @@
+{
+	"TaskName": "imagery",
+	"InstitutionName": "Berlin Institute of Technology",
+	"InstitutionAddress": "10587 Berlin, Germany",
+	"InstitutionalDepartmentName": "Department of Computer Science, Machine Learning Group",
+	"CapManufacturer": "EASYCAP GmbH",
+	"CapManufacturersModelName": "custom-made stretchy fabric cap",
+	"TaskDescription": "Mental arithmetic (serial subtraction of a one-digit number from a three-digit number) versus baseline/rest. Trial duration: 10.0s, cue: 2.0s.",
+	"Instructions": "Perform serial subtraction of a one-digit number from a three-digit number during arithmetic trials, or relax during baseline/rest trials, for 10 s followed by a 15-17 s rest period.",
+	"Manufacturer": "NIRx",
+	"ManufacturersModelName": "NIRScout",
+	"SamplingFrequency": 10.0,
+	"NIRSChannelCount": 72,
+	"NIRSSourceOptodeCount": 14,
+	"NIRSDetectorOptodeCount": 16,
+	"ShortChannelCount": 0,
+	"NIRSPlacementScheme": "10-10",
+	"RecordingDuration": 713.2,
+	"RecordingType": "continuous",
+	"SoftwareFilters": {
+		"Resampling": {
+			"Description": "The paper reports acquisition at 12.5 Hz; the distributed BBCI files (cnt.fs) are sampled at 10 Hz. No processing was added here."
+		}
+	},
+	"SoftwareVersions": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"SubjectArtefactDescription": "n/a"
+}

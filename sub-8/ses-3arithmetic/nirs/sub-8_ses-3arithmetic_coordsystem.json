@@ -1,0 +1,6 @@
+{
+	"NIRSCoordinateSystem": "Other",
+	"NIRSCoordinateUnits": "m",
+	"NIRSCoordinateSystemDescription": "Idealised spherical head model of the BBCI toolbox montage file (mnt.mat, pos_3d on the unit sphere) scaled to a head radius of 0.095 m. Origin at the centre of the sphere, +X towards the right ear (T8), +Y towards Fpz (anterior), +Z towards the vertex (Cz).",
+	"NIRSCoordinateProcessingDescription": "Nominal 10-10 cap positions, not digitised. The paper reports a nominal inter-optode distance of 30 mm."
+}

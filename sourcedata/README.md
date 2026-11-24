@@ -15,3 +15,12 @@ URL remaining reachable.
 
 File **contents** are byte-for-byte as retrieved; no conversion was applied. Filenames are the upstream names: MOABB's local cache stores each download as `<name>/<md5>-<name>`, and that cache-only hash prefix and wrapper directory were removed.
 Per-file SHA-256 checksums are in `sourcedata_provenance.json`.
+
+## NIRS
+
+`NIRS/subject NN/{cnt,mrk,mnt}.mat` are the fNIRS files of the upstream archive
+<http://doc.ml.tu-berlin.de/hBCI/NIRS/NIRS_01-29.zip>, byte-for-byte, under their upstream names. They were not retrieved through
+MOABB (its loader does not read fNIRS) but by `code/shin2017_fnirs_to_bids.py`, which also converted them
+to the SNIRF files in `sub-*/ses-*/nirs/`. Per-file SHA-256 checksums are in
+`NIRS/sourcedata_provenance.json`. The artifact-experiment files of the archive
+(`*_artifact.mat`) are not included.
