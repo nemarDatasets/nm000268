@@ -23,8 +23,10 @@
   "EthicsApprovals": [
     "Ethics Committee of the Institute of Psychology and Ergonomics, Technical University of Berlin (approval number: SH_01_20150330)"
   ],
+  "HowToAcknowledge": "Cite Shin, J., von Lühmann, A., Blankertz, B., Kim, D.-W., Jeong, J., Hwang, H.-J., Müller, K.-R. (2017). Open Access Dataset for EEG+NIRS Single-Trial Classification. IEEE Transactions on Neural Systems and Rehabilitation Engineering 25(10):1735-1745. doi:10.1109/TNSRE.2016.2628057",
   "ReferencesAndLinks": [
-    "http://doc.ml.tu-berlin.de/hBCI"
+    "http://doc.ml.tu-berlin.de/hBCI",
+    "https://doi.org/10.1109/TNSRE.2016.2628057"
   ],
   "DatasetDOI": "10.82901/nemar.nm000268",
   "GeneratedBy": [
@@ -33,6 +35,11 @@
       "Name": "moabb",
       "Description": "Mother of All BCI Benchmarks",
       "Version": "1.5.0"
+    },
+    {
+      "Name": "shin2017_fnirs_to_bids.py",
+      "Version": "1.0.0",
+      "Description": "Converted the upstream BBCI NIRS .mat files to SNIRF and added the BIDS nirs sidecars next to the EEG files (code/shin2017_fnirs_to_bids.py, mne 1.13.2)."
     }
   ],
   "SourceDatasets": [
@@ -57,5 +64,5 @@
     "open access dataset"
   ],
   "PublicationYear": 2017,
-  "Version": "1.0.3"
+  "Version": "1.1.0"
 }
